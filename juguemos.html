@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navegacion">
+            <a href="/index.html" class="computadora">
+                <svg width="200" height="80">
+                    <rect id="mon1" x="45" y="5" width="60" height="35" rx="5" fill="white"></rect>
+                    <rect id="mon2" x="50" y="10" width="50" height="25" rx="5" fill="blue"></rect>
+                    <polygon id="tec1" points="55 45,95 45,115 62,30 62" fill="white"></polygon>
+                    <polygon id="tec2" points="57 48,92 48,104 58,43 58" fill="blue"></polygon>
+                </svg>
+            </a>
+            <ul class="boton">
+                <li class="lista">
+
+                    <a class="pasarpag" href="./historia.html"> HISTORIA</a>
+
+                </li>
+
+                <li class="lista">
+                    <a class="pasarpag" href="./juguemos.html">JUGUEMOS </a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="portada">
+            
+            <div class="temaTitulo">
+                <h1 class="titulo"> PROGRAMACION E HISTORIA</h1>
+            </div>
+        </section>
+
+        <section class="juego">
+
+            
+            <section>
+              
+                <h2 class="titulo-juego">Armemos el rompecabezas y veamos que imagen es...</h2>
+
+            </section>
+
+          <div class="juego-armar">
+                <div class="cajita" id="caja-uno"  ondragover="prevent(event)" ondrop="soltar(event)">
+                    <p>Arrastre y suelte la imagen aqui</p>
+                </div>
+                <div class="cajita" id="caja-dos" ondragover="prevent(event)" ondrop="soltar(event)">
+                    <p>Arrastre y suelte la imagen aqui</p>
+                </div>
+                <div class="cajita" id="caja-tres" ondragover="prevent(event)" ondrop="soltar(event)" >
+                    <p>Arrastre y suelte la imagen aqui</p>
+                </div>
+          </div>
+               
+           <div class="juego-armar imagenes-rompecabeza">
+                <img class="cajita imagen" id="imagenDos" src="./imagenes/Rompe2.png" alt="imagenes rompecabeza" ondragstart="arrastrar(event)">
+                <img class="cajita imagen" id="imagenUno" src="./imagenes/Rompe1.png" alt="imagenes rompecabeza" ondragstart="arrastrar(event)">
+                <img class="cajita imagen" id="imagenTres" src="./imagenes/Rompe3.png" alt="imagenes rompecabeza" ondragstart="arrastrar(event)">
+           </div>
+
+          <section >
+              <ul class="boton pagina-tres">
+                  <li class="boton-reinicio">
+                      <button class="lista reinicio" onclick="reiniciar()"> Reiniciar </button>
+  
+                  </li>
+              </ul>
+
+          </section>
+
+        </section>
+
+    </main>
+    <script src="script.js"></script> 
+</body>
+</html>

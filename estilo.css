@@ -1,0 +1,394 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.navegacion{
+    background-color: #181D31 ;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40%;
+ 
+}
+
+
+
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 60px;
+    margin-right: 3%;
+ 
+   
+}
+
+.pasarpag{
+    text-decoration: none;
+    color: black;
+}
+
+.lista{
+    background-color: #E6DDC4;
+    height: 20px;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: #678983 2PX 2PX;
+    list-style: none;
+}
+
+
+
+.portada{
+    height: 500px;
+    background-image: url(./imagenes/codigo.jpg);
+    background-attachment:fixed ;
+    background-position: center;
+    background-repeat: no-repeat;
+
+   background-size: cover;
+}
+
+
+
+.titulo{
+    position: absolute;
+    top: 30%;
+    font-size: 55px;
+    color: white;
+    text-shadow: black 5px 5px;
+  font-weight: bold;
+}
+
+.temaTitulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.desarrollo{
+    background-color: #181D31;
+    height: 800px;
+}
+
+.titulo-desarrollo{
+    color: #678983;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+}
+
+.fondo-para-imagenes{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen{
+    border: 5px solid #678983 ;
+    width: 350px;
+    height: 410px;
+    background-color: #E6DDC4;
+    display: block;
+}
+
+.imagen-fondo{
+    width: 100%;
+    height: 200px;
+    
+}
+
+.parrafo-imagen{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.boton-juego{
+    text-decoration: none;
+    color: white;
+    background-color: #181D31;
+    padding: 10px 25px;
+    border-radius: 10px;
+    box-shadow: #678983 2PX 2PX;
+    position: relative; 
+}
+
+.enlace{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.historia{
+    margin-top: -20px;
+}
+
+
+
+
+.pie-pagina{
+    display: flex;
+    justify-content: space-between;
+    background-color: #678983;
+    height: 200px;
+   
+}
+
+.primera{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.segunda{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    
+}
+
+.parrafo-pie-pagina{
+    font-size: 17px;
+}
+
+.flechitas{
+    width: 100px;
+    height: 80px;
+  
+}
+
+.titulo-pie-pagina{
+    text-align:left;
+}
+
+
+
+
+
+.historia{
+    background-color: #181D31;
+    height: 100%
+}
+
+.historia-texto{
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.titulo-texto{
+    color: #678983;
+    font-size: 37px;
+ 
+}
+
+.parrafos{
+    color: #E6DDC4;
+    font-size: 18px;
+    text-align: justify;
+    
+}
+
+.texto{
+  
+    margin-top: 150px;
+    margin-left: 40px;
+    margin-right: 40px;
+  
+}
+
+.historia-titulo{
+   
+    width: 50%;
+}
+
+.historia-parrafo{
+   
+    width: 50%;
+}
+
+
+
+.parte-video{
+    height: 950px;
+}
+.titulo-video{
+    position: relative;
+    bottom: -140px;
+    color: #678983;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+   
+}
+
+.fondo-de-video{
+    position: relative;
+    border-radius: 5px;
+    background-color: black;
+    width: 50%; 
+    top: 15%;
+    left: 25%;
+   
+}
+
+.videos{
+    width: 100%;
+}
+
+.botonera{
+   background-color: rgb(14, 13, 13);
+   width: 99%;
+   height: 40px;
+   left: 1%;
+   position: relative;
+   border-radius: 5px;
+   
+   display: flex;
+   justify-content: space-between;
+   
+   
+}
+.botonVideo{
+    height: 35px;
+    width: 85px;
+    border-radius: 10px;
+    box-shadow: #678983 2PX 2PX;
+}
+
+.tiempo{
+    color: white;
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+
+}
+
+.botones{
+    display: flex;
+    gap: 20px;
+   
+}
+
+
+
+
+
+
+
+.reinicio{
+    padding: 20px 90px;
+    top: 650px;
+   
+}
+
+.pagina-tres{
+    bottom: 80%; 
+}
+
+.juego{
+    background-color: #181D31;
+    height: 100%;
+}
+
+.titulo-juego{
+
+    color: #678983;
+    text-align: center;
+    font-size: 40px;
+   top: 60px;
+   
+}
+
+.juego-armar{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+
+
+.cajita{
+    width: 275px;
+    height: 400px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    color:#E6DDC4;
+    font-size: 18px;
+}
+
+.recuadro:hover{
+    background-color: #1d1d1d;
+}
+
+.imagenes-rompecabeza{
+    border: none;
+    gap: 10px;
+}
+
+.rect#mon1,polygon#tec1{
+    animation: part_1 ease-in 5s  ;
+    animation-iteration-count:1 ;
+    }
+    
+    rect#mon2,polygon#tec2{
+animation: part_2 ease-in 5s  ;
+animation-iteration-count:1 ;
+}
+@keyframes part_1{
+    0% {
+    transform: translate(0,-10px);
+    opacity:0;}
+    20% {
+    transform: translate(0,-10px);
+    opacity:0;}
+    30% {
+    transform: translate(0,0);
+    opacity:1;}
+    90% {
+    transform: translate(0,0);
+    opacity:1;}
+    
+    100% {
+        transform: translate(0,0);
+        opacity:1;}
+}   
+    
+
+@keyframes part_2 {
+    0% {
+        transform: translate(0,-10px);
+        opacity:0;}
+        30% {
+        transform: translate(0,-10px);
+        opacity:0;}
+        40% {
+        transform: translate(0,0);
+        opacity:1;}
+        90% {
+        transform: translate(0,0);
+        opacity:1;}
+
+        100% {
+            transform:translate(0,0);
+            opacity:1;}
+}  
+
+
+        .botones-video{
+            display: block;
+        }
